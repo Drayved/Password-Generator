@@ -1,0 +1,87 @@
+body {
+    margin: 0;
+    background-color: rgb(40, 45, 57);
+    margin-top:100px;
+    font-weight: bold;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left: 180px;
+    margin-right: 165px;
+    
+}
+
+#border{
+    border: 5px solid white;
+    border-radius: 16px;
+    margin: auto;
+    padding-top: 90px;
+    padding-bottom: 20px ;
+    padding-right: 50px;
+    padding-left: 50px;
+    text-align: start;
+    width: 400px;
+    height: 400px;
+}
+
+h1{
+    color: white;
+}
+
+h2{
+    color:rgb(60, 206, 150);
+    margin-top: -20px;
+    font-size: xx-large;
+}
+
+p{
+    color: rgb(174, 168, 168);
+    margin-top: -10px;
+    margin-bottom: 40px;
+}
+
+
+#generate-btn{
+    border-bottom: 1px solid rgb(16, 64, 46);
+    
+    padding-bottom: 30px;
+    
+    
+}
+
+
+#generatePassword-btn{
+    background: rgb(60, 206, 150);
+    color: white;
+    padding: 10px 20px;
+    border:none;
+    border-radius: 4px;
+}
+
+.random-chars{
+    display: flex;
+    justify-content: center;
+}
+
+#random-chars1{
+    
+    border: 5px solid rgb(50, 54, 73);
+    background-color: rgb(50, 54, 73);
+    padding: 0px 20px;
+    border-radius: 4px;
+    margin-top: 30px;
+    margin-right: 10px;
+    color: rgb(60, 206, 150);
+    width: 200px;
+    text-align: center;
+}
+
+#random-chars2{
+    border: 5px solid rgb(50, 54, 73);
+    background-color: rgb(50, 54, 73);
+    padding: 0px 20px;
+    border-radius: 4px;
+    margin-top: 30px;
+    margin-left: 10px;
+    color: rgb(60, 206, 150);
+    width: 200px;
+    text-align: center;
+}
